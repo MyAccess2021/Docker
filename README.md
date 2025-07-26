@@ -90,11 +90,21 @@ Instead of the above Compose install, you can use the plugin version:
 ```bash
 sudo apt-get install docker-compose-plugin
 ```
+Using Docker's Official Installation Script
+1. Run the installation script:
+
+```bash
+sudo curl -SL https://github.com/docker/compose/releases/download/v2.29.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+```
+Make the binary executable:
+
+```bash
+sudo chmod +x /usr/local/bin/docker-compose
+```
 And then use:
 ```bash
 docker compose version
 ```
-> This is now the preferred method for most up-to-date setups.
 
 ## References
 
