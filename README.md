@@ -43,7 +43,7 @@ echo \
 Update again and install Docker:
 ```bash
 sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 ```
 
 ## 6. Enable and Start Docker Service
